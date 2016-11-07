@@ -1,0 +1,48 @@
+input {
+  appearance: none;
+  box-sizing: border-box;
+  border-radius: $input-radius;
+  display: inline-block;
+  outline: 0;
+  width: 378px;
+}
+
+textarea {
+  width: 828px;
+  appearance: none;
+  box-sizing: border-box;
+  border-radius: $input-radius;
+  display: inline-block;
+  outline: 0;
+}
+
+button {
+  background-color: $footer-background-color;
+  color: $box-background-color;
+  font-size: 1em;
+  float: right;
+  margin-top: 1em;
+  padding: 10px 36px;
+}
+
+.label {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.name,
+.lastName,
+.email,
+.phone,
+.note {
+  height: $input-height;
+  padding: $input-padding;
+}
+
+.firstRow {
+  display: -webkit-inline-box;
+
+  .second {
+    margin-left: 10%;
+  }
+}

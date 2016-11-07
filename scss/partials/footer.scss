@@ -1,0 +1,37 @@
+.navbar-footer {
+  width: 100%;
+  background-color: $footer-background-color;
+  height: 114px;
+  color: $nav-text-color;
+  display: inline-table;
+
+  .cr {
+    float: left;
+    display: -webkit-inline-box;
+    margin-left: 19%;
+    margin-top: 3em;
+  }
+
+  ul {
+    @extend %plainlist;
+    float: right;
+
+    li {
+      float: left;
+      padding: 16px 15px;
+    }
+
+    li, a {
+      display: block;
+      height: 40px;
+      line-height: 4.7em;
+      margin: 0;
+      text-decoration: none;
+      color: $nav-text-color;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
