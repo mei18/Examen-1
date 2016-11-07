@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  font-family: $font-family;
+  background-color: $body-background-color;
+}
+.container {
+  max-width: 55.688em;
+  margin: 0 auto;
+  margin-top: 3.625em;
+  margin-bottom: 3.625em;
+}
+
+.box {
+  padding: 0px 27px 1.5em;
+  background-color: $box-background-color;
+  @include border(dashed);
+
+  h1 {
+    font-size: 2em;
+    margin-top: 1.2em;
+    text-align: center;
+    color: $nav-background-color;
+  }
+
+  p {
+    margin-bottom: 1.8em;
+  }
+
+}
