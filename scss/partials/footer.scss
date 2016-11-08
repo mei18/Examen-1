@@ -1,9 +1,12 @@
 .navbar-footer {
+  position: absolute;
   width: 100%;
   background-color: $footer-background-color;
   height: 114px;
   color: $nav-text-color;
   display: inline-table;
+  margin-top: 3.625em;
+  clear: both;
 
   .cr {
     float: left;
