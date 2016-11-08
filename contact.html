@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,15 +40,15 @@
       <div class="box">
         <h1>Hipster Ipsum</h1>
 
-        <form action="/index.html">
+        <form action="/">
           <div class="firstRow">
-            <div class="fist">
+            <div class="fist col-s-6">
               <div class="label">
                 <label for="name">Nombre</label>
               </div>
               <input type="text" name="name" class="name" id="name" placeholder="Juan">
             </div>
-            <div class="second">
+            <div class="second col-s-6">
               <div class="label">
                 <label for="lastName">Apellido</label>
               </div>
@@ -76,7 +76,10 @@
             </div>
             <textarea name="note" id="note" cols="30" rows="12"></textarea>
           </div>
-        <button type="button" name="send" class="send">Enviar</button>
+
+          <div class="fifthRow">
+            <button type="submit" name="send" id="send" class="send"><a href="contact.html">Enviar</a></button>
+          </div>
         </form>
       </div>
     </div>
