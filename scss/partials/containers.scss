@@ -7,9 +7,10 @@ body, html {
 
 .container {
   max-width: 55.688em;
-  height: 45.188em;
+  //height: 45.188em;
   margin: 0 auto;
   margin-top: 3.625em;
+
 
   .box {
     padding: 0px 27px 1.5em;
@@ -27,6 +28,10 @@ body, html {
       margin-bottom: 1.5em;
     }
 
+    form {
+      width: 100%;
+    }
+
     textarea {
       width: 100%;
       box-sizing: border-box;
@@ -41,7 +46,7 @@ body, html {
       background-color: $footer-background-color;
       font-size: 1em;
       float: right;
-      padding: 5px 36px;
+      //padding: 5px 36px;
 
       a{
         text-decoration: none;
